@@ -1,0 +1,57 @@
+.titulo-01{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.content-00{
+    position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.body{
+    background-image: linear-gradient(to right, red, orange, white);;
+}
+
+.table-01{
+    background-color: rgb(76, 76, 255);
+}
+.table-001{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+.table-02{
+    background-color: yellow;
+}
+
+.button {
+  background-image: linear-gradient(black, darkblue, blue, rgb(0, 225, 255));
+  color: rgb(255, 255, 255);
+  padding: 10px 20px; /* Espaçamento interno (cima/baixo, esquerda/direita) */
+  border: 1px solid blue; /* Borda */
+  border-radius: 300px; /* Arredondamento */
+  cursor: pointer; /* Define o cursor como ponteiro */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Estilo ao passar o mouse */
+.button:hover {
+  background-color: darkblue; /* Muda a cor de fundo */
+  color: black; /* Mantém a cor do texto */
+}
+
+.button-01 {
+    background-image: linear-gradient(red, white); /* Define o degradê do azul escuro para o azul claro */
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black; /* Ajuste a cor da borda para combinar */
+    border-radius: 300px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+
+.button-01:hover {
+    background-color: darkblue;
+    color: black;
+}

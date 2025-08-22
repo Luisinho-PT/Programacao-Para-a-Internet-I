@@ -1,1 +1,6 @@
-teste
+git init
+git add .
+git branch -M main
+git remote add origin [linkdaorigin]
+git commit -m "Comentário"
+git push -u origin main
